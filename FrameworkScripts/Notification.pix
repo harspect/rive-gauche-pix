@@ -91,7 +91,7 @@
           <PropertyValue z:Id="i12">
             <PropertyName>Value</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>dict_config["MailCred_login"].ToString()</_expression>
+            <_expression>dict_config["MailCred"].ToString()</_expression>
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
@@ -635,7 +635,7 @@
                         <PropertyName>IsBodyHtml</PropertyName>
                         <_dataType>Value</_dataType>
                         <_expression i:nil="true" />
-                        <_value xmlns:d13p1="http://www.w3.org/2001/XMLSchema" i:type="d13p1:boolean">false</_value>
+                        <_value xmlns:d13p1="http://www.w3.org/2001/XMLSchema" i:type="d13p1:boolean">true</_value>
                         <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                       </PropertyValue>
                       <PropertyValue z:Id="i75">
@@ -1285,6 +1285,7 @@
       <TypeString>System.Boolean</TypeString>
     </Parameter>
   </Params>
+  <TemplateVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System" i:nil="true" />
   <Variables xmlns:d2p1="http://schemas.datacontract.org/2004/07/BR.Logic.Params" />
   <Version i:nil="true" />
 </Script>

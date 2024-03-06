@@ -1126,6 +1126,13 @@
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
+                  <PropertyValue z:Id="i121">
+                    <PropertyName>GetTypedValues</PropertyName>
+                    <_dataType>Value</_dataType>
+                    <_expression i:nil="true" />
+                    <_value xmlns:d11p1="http://www.w3.org/2001/XMLSchema" i:type="d11p1:boolean">false</_value>
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
                 </PropertyValues>
                 <SelectedOptionId i:nil="true" />
                 <EnableStatus>true</EnableStatus>
@@ -1134,23 +1141,23 @@
                 <Text>Прочитать диапазон ячеек</Text>
                 <_activityFullName>Activities.Office.Excel.ReadRange</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i121" i:type="ExecutedStep">
+              <AbstractStep z:Id="i122" i:type="ExecutedStep">
                 <Childs>
-                  <AbstractStep z:Id="i122" i:type="ExecutedStep">
+                  <AbstractStep z:Id="i123" i:type="ExecutedStep">
                     <Childs>
-                      <AbstractStep z:Id="i123" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i124" i:type="ExecutedStep">
                         <Childs />
                         <Id>b54e6029-62d2-41c4-98d0-d1e4d993f5a8</Id>
-                        <Parent z:Ref="i122" />
+                        <Parent z:Ref="i123" />
                         <PropertyValues>
-                          <PropertyValue z:Id="i124">
+                          <PropertyValue z:Id="i125">
                             <PropertyName>Value</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>"Значение"</_expression>
                             <_value i:nil="true" />
                             <_xpathSettings xmlns:d15p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                           </PropertyValue>
-                          <PropertyValue z:Id="i125">
+                          <PropertyValue z:Id="i126">
                             <PropertyName>To</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>str_valueColumnName</_expression>
@@ -1167,7 +1174,7 @@
                       </AbstractStep>
                     </Childs>
                     <Id>31d8618f-c9e6-445e-b870-fa3f2d5400cf</Id>
-                    <Parent z:Ref="i121" />
+                    <Parent z:Ref="i122" />
                     <PropertyValues />
                     <SelectedOptionId i:nil="true" />
                     <EnableStatus>true</EnableStatus>
@@ -1176,25 +1183,25 @@
                     <Text></Text>
                     <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                   </AbstractStep>
-                  <AbstractStep z:Id="i126" i:type="ExecutedStep">
+                  <AbstractStep z:Id="i127" i:type="ExecutedStep">
                     <Childs>
-                      <AbstractStep z:Id="i127" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i128" i:type="ExecutedStep">
                         <Childs>
-                          <AbstractStep z:Id="i128" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i129" i:type="ExecutedStep">
                             <Childs>
-                              <AbstractStep z:Id="i129" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i130" i:type="ExecutedStep">
                                 <Childs />
                                 <Id>a6386c44-d42f-4dfe-9168-5d48d804a241</Id>
-                                <Parent z:Ref="i128" />
+                                <Parent z:Ref="i129" />
                                 <PropertyValues>
-                                  <PropertyValue z:Id="i130">
+                                  <PropertyValue z:Id="i131">
                                     <PropertyName>Value</PropertyName>
                                     <_dataType>Expression</_dataType>
                                     <_expression>"Значение_Prod"</_expression>
                                     <_value i:nil="true" />
                                     <_xpathSettings xmlns:d19p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                   </PropertyValue>
-                                  <PropertyValue z:Id="i131">
+                                  <PropertyValue z:Id="i132">
                                     <PropertyName>To</PropertyName>
                                     <_dataType>Expression</_dataType>
                                     <_expression>str_valueColumnName</_expression>
@@ -1211,7 +1218,7 @@
                               </AbstractStep>
                             </Childs>
                             <Id>3c2ed922-6862-4fec-8b25-2ff2b870f841</Id>
-                            <Parent z:Ref="i127" />
+                            <Parent z:Ref="i128" />
                             <PropertyValues />
                             <SelectedOptionId i:nil="true" />
                             <EnableStatus>true</EnableStatus>
@@ -1220,21 +1227,21 @@
                             <Text></Text>
                             <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                           </AbstractStep>
-                          <AbstractStep z:Id="i132" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i133" i:type="ExecutedStep">
                             <Childs>
-                              <AbstractStep z:Id="i133" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i134" i:type="ExecutedStep">
                                 <Childs />
                                 <Id>41b3ca3d-6aa0-4e43-a7ed-9051ceca3354</Id>
-                                <Parent z:Ref="i132" />
+                                <Parent z:Ref="i133" />
                                 <PropertyValues>
-                                  <PropertyValue z:Id="i134">
+                                  <PropertyValue z:Id="i135">
                                     <PropertyName>Value</PropertyName>
                                     <_dataType>Expression</_dataType>
                                     <_expression>"Значение_PredProd"</_expression>
                                     <_value i:nil="true" />
                                     <_xpathSettings xmlns:d19p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                   </PropertyValue>
-                                  <PropertyValue z:Id="i135">
+                                  <PropertyValue z:Id="i136">
                                     <PropertyName>To</PropertyName>
                                     <_dataType>Expression</_dataType>
                                     <_expression>str_valueColumnName</_expression>
@@ -1251,9 +1258,9 @@
                               </AbstractStep>
                             </Childs>
                             <Id>1d89e0e2-0bdf-4f4e-bb8c-e75ec8746d17</Id>
-                            <Parent z:Ref="i127" />
+                            <Parent z:Ref="i128" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i136">
+                              <PropertyValue z:Id="i137">
                                 <PropertyName>Condition</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>bool_isPredProd</_expression>
@@ -1268,21 +1275,21 @@
                             <Text></Text>
                             <_activityFullName>BR.Core.Base.ElseIf</_activityFullName>
                           </AbstractStep>
-                          <AbstractStep z:Id="i137" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i138" i:type="ExecutedStep">
                             <Childs>
-                              <AbstractStep z:Id="i138" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i139" i:type="ExecutedStep">
                                 <Childs />
                                 <Id>637b6d5a-2052-45e3-8e3b-d45ee6a535d7</Id>
-                                <Parent z:Ref="i137" />
+                                <Parent z:Ref="i138" />
                                 <PropertyValues>
-                                  <PropertyValue z:Id="i139">
+                                  <PropertyValue z:Id="i140">
                                     <PropertyName>Value</PropertyName>
                                     <_dataType>Expression</_dataType>
                                     <_expression>"Значение_Test"</_expression>
                                     <_value i:nil="true" />
                                     <_xpathSettings xmlns:d19p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                   </PropertyValue>
-                                  <PropertyValue z:Id="i140">
+                                  <PropertyValue z:Id="i141">
                                     <PropertyName>To</PropertyName>
                                     <_dataType>Expression</_dataType>
                                     <_expression>str_valueColumnName</_expression>
@@ -1299,7 +1306,7 @@
                               </AbstractStep>
                             </Childs>
                             <Id>de71fbda-5154-4fb1-a010-5a9c8787a5cb</Id>
-                            <Parent z:Ref="i127" />
+                            <Parent z:Ref="i128" />
                             <PropertyValues />
                             <SelectedOptionId i:nil="true" />
                             <EnableStatus>true</EnableStatus>
@@ -1310,9 +1317,9 @@
                           </AbstractStep>
                         </Childs>
                         <Id>3519df11-cc53-44dc-80f5-586206adde63</Id>
-                        <Parent z:Ref="i126" />
+                        <Parent z:Ref="i127" />
                         <PropertyValues>
-                          <PropertyValue z:Id="i141">
+                          <PropertyValue z:Id="i142">
                             <PropertyName>Condition</PropertyName>
                             <_dataType>Expression</_dataType>
                             <_expression>bool_isProd</_expression>
@@ -1329,9 +1336,9 @@
                       </AbstractStep>
                     </Childs>
                     <Id>35bfe7b4-465e-41d0-b5f0-6893b75baf8c</Id>
-                    <Parent z:Ref="i121" />
+                    <Parent z:Ref="i122" />
                     <PropertyValues>
-                      <PropertyValue z:Id="i142">
+                      <PropertyValue z:Id="i143">
                         <PropertyName>Condition</PropertyName>
                         <_dataType>Expression</_dataType>
                         <_expression>str_sheet=="Data_Separation"</_expression>
@@ -1346,10 +1353,10 @@
                     <Text></Text>
                     <_activityFullName>BR.Core.Base.ElseIf</_activityFullName>
                   </AbstractStep>
-                  <AbstractStep z:Id="i143" i:type="ExecutedStep">
+                  <AbstractStep z:Id="i144" i:type="ExecutedStep">
                     <Childs />
                     <Id>81ee9207-1346-4c17-8306-a46161653a4d</Id>
-                    <Parent z:Ref="i121" />
+                    <Parent z:Ref="i122" />
                     <PropertyValues />
                     <SelectedOptionId i:nil="true" />
                     <EnableStatus>true</EnableStatus>
@@ -1362,7 +1369,7 @@
                 <Id>dbd511db-06d7-4d15-a928-a577051c825a</Id>
                 <Parent z:Ref="i113" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i144">
+                  <PropertyValue z:Id="i145">
                     <PropertyName>Condition</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>str_sheet=="Settings" </_expression>
@@ -1377,12 +1384,12 @@
                 <Text>Определение колонки, содержащей значение</Text>
                 <_activityFullName>BR.Core.Base.If</_activityFullName>
               </AbstractStep>
-              <AbstractStep z:Id="i145" i:type="ExecutedStep">
+              <AbstractStep z:Id="i146" i:type="ExecutedStep">
                 <Childs>
-                  <AbstractStep z:Id="i146" i:type="CommentStep">
+                  <AbstractStep z:Id="i147" i:type="CommentStep">
                     <Childs />
                     <Id>900db2dc-c6eb-4d86-8ddc-2562006ab83e</Id>
-                    <Parent z:Ref="i145" />
+                    <Parent z:Ref="i146" />
                     <PropertyValues />
                     <SelectedOptionId i:nil="true" />
                     <Text>Помимо основного получения локальных данных из файла Config.xlsx можно считывать данные из мастера и Windows Credentials. 
@@ -1394,34 +1401,34 @@ WinCred - Windows Credentials
 При пустом значении - используются данные напрямую из Config.xlsx
 Это распространяется на 2 листа "Settings", "Data_Separation"</Text>
                   </AbstractStep>
-                  <AbstractStep z:Id="i147" i:type="ExecutedStep">
+                  <AbstractStep z:Id="i148" i:type="ExecutedStep">
                     <Childs>
-                      <AbstractStep z:Id="i148" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i149" i:type="ExecutedStep">
                         <Childs>
-                          <AbstractStep z:Id="i149" i:type="ExecutedStep">
+                          <AbstractStep z:Id="i150" i:type="ExecutedStep">
                             <Childs>
-                              <AbstractStep z:Id="i150" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i151" i:type="ExecutedStep">
                                 <Childs>
-                                  <AbstractStep z:Id="i151" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i152" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>24e438fd-f0e6-4307-9d0a-e5abe6be992a</Id>
-                                    <Parent z:Ref="i150" />
+                                    <Parent z:Ref="i151" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i152">
+                                      <PropertyValue z:Id="i153">
                                         <PropertyName>Value</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>str_value</_expression>
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i153">
+                                      <PropertyValue z:Id="i154">
                                         <PropertyName>Id</PropertyName>
                                         <_dataType>Value</_dataType>
                                         <_expression i:nil="true" />
                                         <_value xmlns:d21p1="http://www.w3.org/2001/XMLSchema" i:type="d21p1:int">0</_value>
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i154">
+                                      <PropertyValue z:Id="i155">
                                         <PropertyName>Key</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>row[str_valueColumnName].ToString()</_expression>
@@ -1436,19 +1443,19 @@ WinCred - Windows Credentials
                                     <Text></Text>
                                     <_activityFullName>Activities.Master.Data.GetData</_activityFullName>
                                   </AbstractStep>
-                                  <AbstractStep z:Id="i155" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i156" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>8a42486c-6b2d-49ba-a3eb-a58d301e44dc</Id>
-                                    <Parent z:Ref="i150" />
+                                    <Parent z:Ref="i151" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i156">
+                                      <PropertyValue z:Id="i157">
                                         <PropertyName>Value</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>str_value</_expression>
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i157">
+                                      <PropertyValue z:Id="i158">
                                         <PropertyName>To</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>dict_config[row["Имя"].ToString().Trim()]</_expression>
@@ -1465,7 +1472,7 @@ WinCred - Windows Credentials
                                   </AbstractStep>
                                 </Childs>
                                 <Id>43db076f-5c01-4fa3-8996-d0bacb15b729</Id>
-                                <Parent z:Ref="i149" />
+                                <Parent z:Ref="i150" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
                                 <EnableStatus>true</EnableStatus>
@@ -1474,42 +1481,42 @@ WinCred - Windows Credentials
                                 <Text>Тип = Text</Text>
                                 <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                               </AbstractStep>
-                              <AbstractStep z:Id="i158" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i159" i:type="ExecutedStep">
                                 <Childs>
-                                  <AbstractStep z:Id="i159" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i160" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>d121ca83-73dc-4e77-afe0-9c36c8431a30</Id>
-                                    <Parent z:Ref="i158" />
+                                    <Parent z:Ref="i159" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i160">
+                                      <PropertyValue z:Id="i161">
                                         <PropertyName>Id</PropertyName>
                                         <_dataType>Value</_dataType>
                                         <_expression i:nil="true" />
                                         <_value xmlns:d21p1="http://www.w3.org/2001/XMLSchema" i:type="d21p1:int">0</_value>
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i161">
+                                      <PropertyValue z:Id="i162">
                                         <PropertyName>Key</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>row[str_valueColumnName].ToString()</_expression>
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i162">
+                                      <PropertyValue z:Id="i163">
                                         <PropertyName>Login</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>sec_login</_expression>
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i163">
+                                      <PropertyValue z:Id="i164">
                                         <PropertyName>LoginNonSecure</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression></_expression>
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i164">
+                                      <PropertyValue z:Id="i165">
                                         <PropertyName>Password</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>sec_password</_expression>
@@ -1524,19 +1531,19 @@ WinCred - Windows Credentials
                                     <Text></Text>
                                     <_activityFullName>Activities.Master.Data.GetDataAsCredentials</_activityFullName>
                                   </AbstractStep>
-                                  <AbstractStep z:Id="i165" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i166" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>1da517f3-b241-498e-b059-b66da36a3ced</Id>
-                                    <Parent z:Ref="i158" />
+                                    <Parent z:Ref="i159" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i166">
+                                      <PropertyValue z:Id="i167">
                                         <PropertyName>Value</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>new System.Net.NetworkCredential(string.Empty, sec_login).Password;</_expression>
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i167">
+                                      <PropertyValue z:Id="i168">
                                         <PropertyName>To</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>dict_config[$"{row["Имя"].ToString().Trim()}_login"]</_expression>
@@ -1551,19 +1558,19 @@ WinCred - Windows Credentials
                                     <Text>Записать настройку в словарь</Text>
                                     <_activityFullName>BR.Core.Base.Assign</_activityFullName>
                                   </AbstractStep>
-                                  <AbstractStep z:Id="i168" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i169" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>6eab0678-ba20-4ada-a0b8-ec1352adcd8c</Id>
-                                    <Parent z:Ref="i158" />
+                                    <Parent z:Ref="i159" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i169">
+                                      <PropertyValue z:Id="i170">
                                         <PropertyName>Value</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>sec_password</_expression>
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i170">
+                                      <PropertyValue z:Id="i171">
                                         <PropertyName>To</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>dict_secureData[$"{row["Имя"].ToString().Trim()}_passwd"]</_expression>
@@ -1580,9 +1587,9 @@ WinCred - Windows Credentials
                                   </AbstractStep>
                                 </Childs>
                                 <Id>f9882aad-425a-4d9e-b5c1-24cd8c70546a</Id>
-                                <Parent z:Ref="i149" />
+                                <Parent z:Ref="i150" />
                                 <PropertyValues>
-                                  <PropertyValue z:Id="i171">
+                                  <PropertyValue z:Id="i172">
                                     <PropertyName>Condition</PropertyName>
                                     <_dataType>Expression</_dataType>
                                     <_expression>row["Тип*"].ToString().Trim().Equals("AuthCredentials")</_expression>
@@ -1597,28 +1604,28 @@ WinCred - Windows Credentials
                                 <Text>Тип = AuthCredentials</Text>
                                 <_activityFullName>BR.Core.Base.ElseIf</_activityFullName>
                               </AbstractStep>
-                              <AbstractStep z:Id="i172" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i173" i:type="ExecutedStep">
                                 <Childs>
-                                  <AbstractStep z:Id="i173" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i174" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>185070fb-5a36-4bdb-8c80-6c54b2769790</Id>
-                                    <Parent z:Ref="i172" />
+                                    <Parent z:Ref="i173" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i174">
+                                      <PropertyValue z:Id="i175">
                                         <PropertyName>Value</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>sec_value</_expression>
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i175">
+                                      <PropertyValue z:Id="i176">
                                         <PropertyName>Id</PropertyName>
                                         <_dataType>Value</_dataType>
                                         <_expression i:nil="true" />
                                         <_value xmlns:d21p1="http://www.w3.org/2001/XMLSchema" i:type="d21p1:int">0</_value>
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i176">
+                                      <PropertyValue z:Id="i177">
                                         <PropertyName>Key</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>row[str_valueColumnName].ToString()</_expression>
@@ -1633,19 +1640,19 @@ WinCred - Windows Credentials
                                     <Text></Text>
                                     <_activityFullName>Activities.Master.Data.GetDataAsSecureString</_activityFullName>
                                   </AbstractStep>
-                                  <AbstractStep z:Id="i177" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i178" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>f2904e78-a2b3-4175-ada7-035caaa5893b</Id>
-                                    <Parent z:Ref="i172" />
+                                    <Parent z:Ref="i173" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i178">
+                                      <PropertyValue z:Id="i179">
                                         <PropertyName>Value</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>sec_value</_expression>
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i179">
+                                      <PropertyValue z:Id="i180">
                                         <PropertyName>To</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>dict_secureData[row["Имя"].ToString().Trim()]</_expression>
@@ -1662,9 +1669,9 @@ WinCred - Windows Credentials
                                   </AbstractStep>
                                 </Childs>
                                 <Id>98cd9dfe-7e52-4c85-bb93-19b2b494c075</Id>
-                                <Parent z:Ref="i149" />
+                                <Parent z:Ref="i150" />
                                 <PropertyValues>
-                                  <PropertyValue z:Id="i180">
+                                  <PropertyValue z:Id="i181">
                                     <PropertyName>Condition</PropertyName>
                                     <_dataType>Expression</_dataType>
                                     <_expression>row["Тип*"].ToString().Trim().Equals("SecureData")</_expression>
@@ -1679,28 +1686,28 @@ WinCred - Windows Credentials
                                 <Text>Тип = SecureData</Text>
                                 <_activityFullName>BR.Core.Base.ElseIf</_activityFullName>
                               </AbstractStep>
-                              <AbstractStep z:Id="i181" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i182" i:type="ExecutedStep">
                                 <Childs>
-                                  <AbstractStep z:Id="i182" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i183" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>5fb3ecb2-b859-4169-ae2c-f21a2ae6c5e6</Id>
-                                    <Parent z:Ref="i181" />
+                                    <Parent z:Ref="i182" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i183">
+                                      <PropertyValue z:Id="i184">
                                         <PropertyName>AssetName</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>row[str_valueColumnName].ToString()</_expression>
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i184">
+                                      <PropertyValue z:Id="i185">
                                         <PropertyName>UserName</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>str_login</_expression>
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i185">
+                                      <PropertyValue z:Id="i186">
                                         <PropertyName>Password</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>sec_password</_expression>
@@ -1715,19 +1722,19 @@ WinCred - Windows Credentials
                                     <Text></Text>
                                     <_activityFullName>Activities.Credentials.GetCredentials</_activityFullName>
                                   </AbstractStep>
-                                  <AbstractStep z:Id="i186" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i187" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>ac738e88-ea62-40d1-a3f1-e2f42795666a</Id>
-                                    <Parent z:Ref="i181" />
+                                    <Parent z:Ref="i182" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i187">
+                                      <PropertyValue z:Id="i188">
                                         <PropertyName>Value</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>str_login</_expression>
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i188">
+                                      <PropertyValue z:Id="i189">
                                         <PropertyName>To</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>dict_config[$"{row["Имя"].ToString().Trim()}_login"]</_expression>
@@ -1742,19 +1749,19 @@ WinCred - Windows Credentials
                                     <Text>Записать настройку в словарь</Text>
                                     <_activityFullName>BR.Core.Base.Assign</_activityFullName>
                                   </AbstractStep>
-                                  <AbstractStep z:Id="i189" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i190" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>88faffa8-7e79-4c4a-8b11-fd6c274ba88d</Id>
-                                    <Parent z:Ref="i181" />
+                                    <Parent z:Ref="i182" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i190">
+                                      <PropertyValue z:Id="i191">
                                         <PropertyName>Value</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>sec_password</_expression>
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i191">
+                                      <PropertyValue z:Id="i192">
                                         <PropertyName>To</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>dict_secureData[$"{row["Имя"].ToString().Trim()}_passwd"]</_expression>
@@ -1771,9 +1778,9 @@ WinCred - Windows Credentials
                                   </AbstractStep>
                                 </Childs>
                                 <Id>07764ad8-1d3e-4eec-b19c-7d7728e1699d</Id>
-                                <Parent z:Ref="i149" />
+                                <Parent z:Ref="i150" />
                                 <PropertyValues>
-                                  <PropertyValue z:Id="i192">
+                                  <PropertyValue z:Id="i193">
                                     <PropertyName>Condition</PropertyName>
                                     <_dataType>Expression</_dataType>
                                     <_expression>row["Тип*"].ToString().Trim().Equals("WinCred")</_expression>
@@ -1788,21 +1795,21 @@ WinCred - Windows Credentials
                                 <Text>Тип = WinCred</Text>
                                 <_activityFullName>BR.Core.Base.ElseIf</_activityFullName>
                               </AbstractStep>
-                              <AbstractStep z:Id="i193" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i194" i:type="ExecutedStep">
                                 <Childs>
-                                  <AbstractStep z:Id="i194" i:type="ExecutedStep">
+                                  <AbstractStep z:Id="i195" i:type="ExecutedStep">
                                     <Childs />
                                     <Id>bf13ad2d-608f-4590-abf9-be38b6fe233f</Id>
-                                    <Parent z:Ref="i193" />
+                                    <Parent z:Ref="i194" />
                                     <PropertyValues>
-                                      <PropertyValue z:Id="i195">
+                                      <PropertyValue z:Id="i196">
                                         <PropertyName>Value</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>row[str_valueColumnName]</_expression>
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
-                                      <PropertyValue z:Id="i196">
+                                      <PropertyValue z:Id="i197">
                                         <PropertyName>To</PropertyName>
                                         <_dataType>Expression</_dataType>
                                         <_expression>dict_config[row["Имя"].ToString().Trim()]</_expression>
@@ -1819,9 +1826,9 @@ WinCred - Windows Credentials
                                   </AbstractStep>
                                 </Childs>
                                 <Id>cd38ab7e-98da-421c-af40-7c9e20b82119</Id>
-                                <Parent z:Ref="i149" />
+                                <Parent z:Ref="i150" />
                                 <PropertyValues>
-                                  <PropertyValue z:Id="i197">
+                                  <PropertyValue z:Id="i198">
                                     <PropertyName>Condition</PropertyName>
                                     <_dataType>Expression</_dataType>
                                     <_expression>string.IsNullOrEmpty(row["Тип*"].ToString().Trim())</_expression>
@@ -1836,10 +1843,10 @@ WinCred - Windows Credentials
                                 <Text>Тип пустой?</Text>
                                 <_activityFullName>BR.Core.Base.ElseIf</_activityFullName>
                               </AbstractStep>
-                              <AbstractStep z:Id="i198" i:type="ExecutedStep">
+                              <AbstractStep z:Id="i199" i:type="ExecutedStep">
                                 <Childs />
                                 <Id>be5df62d-fc0a-4d96-9bf0-130b5cf48fce</Id>
-                                <Parent z:Ref="i149" />
+                                <Parent z:Ref="i150" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
                                 <EnableStatus>true</EnableStatus>
@@ -1850,9 +1857,9 @@ WinCred - Windows Credentials
                               </AbstractStep>
                             </Childs>
                             <Id>a63384fd-db1a-490f-94ee-4b2cf6036036</Id>
-                            <Parent z:Ref="i148" />
+                            <Parent z:Ref="i149" />
                             <PropertyValues>
-                              <PropertyValue z:Id="i199">
+                              <PropertyValue z:Id="i200">
                                 <PropertyName>Condition</PropertyName>
                                 <_dataType>Expression</_dataType>
                                 <_expression>row["Тип*"].ToString().Trim().Equals("Text")</_expression>
@@ -1869,7 +1876,7 @@ WinCred - Windows Credentials
                           </AbstractStep>
                         </Childs>
                         <Id>56f19f08-e00d-46a4-9016-33b226e99b7b</Id>
-                        <Parent z:Ref="i147" />
+                        <Parent z:Ref="i148" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <EnableStatus>true</EnableStatus>
@@ -1878,10 +1885,10 @@ WinCred - Windows Credentials
                         <Text></Text>
                         <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
                       </AbstractStep>
-                      <AbstractStep z:Id="i200" i:type="ExecutedStep">
+                      <AbstractStep z:Id="i201" i:type="ExecutedStep">
                         <Childs />
                         <Id>4539ee9b-e20d-4091-8b3a-d9d73ef24e4f</Id>
-                        <Parent z:Ref="i147" />
+                        <Parent z:Ref="i148" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
                         <EnableStatus>true</EnableStatus>
@@ -1892,9 +1899,9 @@ WinCred - Windows Credentials
                       </AbstractStep>
                     </Childs>
                     <Id>950e7b06-9755-454e-89ab-6e468fa3c952</Id>
-                    <Parent z:Ref="i145" />
+                    <Parent z:Ref="i146" />
                     <PropertyValues>
-                      <PropertyValue z:Id="i201">
+                      <PropertyValue z:Id="i202">
                         <PropertyName>Condition</PropertyName>
                         <_dataType>Expression</_dataType>
                         <_expression>string.IsNullOrEmpty(row["Имя"].ToString().Trim()) == false</_expression>
@@ -1913,21 +1920,21 @@ WinCred - Windows Credentials
                 <Id>b05fcb2c-918d-4918-b575-8cfd55ffe680</Id>
                 <Parent z:Ref="i113" />
                 <PropertyValues>
-                  <PropertyValue z:Id="i202">
+                  <PropertyValue z:Id="i203">
                     <PropertyName>Collection</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>configTable.Rows</_expression>
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i203">
+                  <PropertyValue z:Id="i204">
                     <PropertyName>Iterator</PropertyName>
                     <_dataType>Expression</_dataType>
                     <_expression>row</_expression>
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                   </PropertyValue>
-                  <PropertyValue z:Id="i204">
+                  <PropertyValue z:Id="i205">
                     <PropertyName>Counter</PropertyName>
                     <_dataType>Value</_dataType>
                     <_expression></_expression>
@@ -1946,21 +1953,21 @@ WinCred - Windows Credentials
             <Id>3bfcffd4-d56d-4d5e-8538-a0f151c0e929</Id>
             <Parent z:Ref="i105" />
             <PropertyValues>
-              <PropertyValue z:Id="i205">
+              <PropertyValue z:Id="i206">
                 <PropertyName>Collection</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>list_workbookSheets</_expression>
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i206">
+              <PropertyValue z:Id="i207">
                 <PropertyName>Iterator</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>str_sheet</_expression>
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i207">
+              <PropertyValue z:Id="i208">
                 <PropertyName>Counter</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression></_expression>
@@ -2002,43 +2009,44 @@ WinCred - Windows Credentials
     <d2p1:string>PIX.Core.Exceptions</d2p1:string>
   </Namespaces>
   <Params>
-    <Parameter z:Id="i208">
+    <Parameter z:Id="i209">
       <DefaultValueExpression>@"Data\Config.xlsx"</DefaultValueExpression>
       <Description></Description>
       <Name>str_configFile</Name>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i209">
+    <Parameter z:Id="i210">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>dict_config</Name>
       <TypeString>System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]</TypeString>
     </Parameter>
-    <Parameter z:Id="i210">
+    <Parameter z:Id="i211">
       <DefaultValueExpression></DefaultValueExpression>
       <Description>bool_isProd==true - робот работает в продуктиве. bool_isProd==false - робот в предпродуктиве или тесте</Description>
       <Name>bool_isProd</Name>
       <TypeString>System.Boolean</TypeString>
     </Parameter>
-    <Parameter z:Id="i211">
+    <Parameter z:Id="i212">
       <DefaultValueExpression></DefaultValueExpression>
       <Description>bool_isPredProd==true - робот работает в предпродуктиве. bool_isPredProd==false - робот в продуктиве или тесте.</Description>
       <Name>bool_isPredProd</Name>
       <TypeString>System.Boolean</TypeString>
     </Parameter>
-    <Parameter z:Id="i212">
+    <Parameter z:Id="i213">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>dict_secureData</Name>
       <TypeString>System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Security.SecureString, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]</TypeString>
     </Parameter>
-    <Parameter z:Id="i213">
+    <Parameter z:Id="i214">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>dict_paths</Name>
       <TypeString>System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]</TypeString>
     </Parameter>
   </Params>
+  <TemplateVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System" i:nil="true" />
   <Variables xmlns:d2p1="http://schemas.datacontract.org/2004/07/BR.Logic.Params" />
   <Version i:nil="true" />
 </Script>

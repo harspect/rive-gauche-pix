@@ -467,7 +467,7 @@ STATE 5: Завершение</Text>
                                 <_value xmlns:d17p1="http://schemas.datacontract.org/2004/07/BR.Core" i:type="d17p1:ArrayOfArgumentItem">
                                   <d17p1:ArgumentItem z:Id="i59">
                                     <d17p1:ArgumentName>list_processesToKill</d17p1:ArgumentName>
-                                    <d17p1:Expression>new List&lt;String&gt; {"chrome", "excel"}</d17p1:Expression>
+                                    <d17p1:Expression>new List&lt;String&gt; {"chrome"}</d17p1:Expression>
                                     <d17p1:Type>List&lt;System.String&gt;</d17p1:Type>
                                   </d17p1:ArgumentItem>
                                 </_value>
@@ -3343,6 +3343,7 @@ STATE 5: Завершение</Text>
       <TypeString>System.Int32</TypeString>
     </Parameter>
   </Params>
+  <TemplateVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System" i:nil="true" />
   <Variables xmlns:d2p1="http://schemas.datacontract.org/2004/07/BR.Logic.Params" />
   <Version i:nil="true" />
 </Script>
