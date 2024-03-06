@@ -40,7 +40,7 @@
                       <PropertyValue z:Id="i9">
                         <PropertyName>URL</PropertyName>
                         <_dataType>Expression</_dataType>
-                        <_expression>dict_config["RiveGaucheBrandsUrl"].ToString()</_expression>
+                        <_expression>$"{dict_config["RiveGaucheBrandsUrl"]}"</_expression>
                         <_value i:nil="true" />
                         <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                       </PropertyValue>
@@ -89,7 +89,7 @@
                       <PropertyValue z:Id="i16">
                         <PropertyName>Browser</PropertyName>
                         <_dataType>Expression</_dataType>
-                        <_expression></_expression>
+                        <_expression>browser_chrome</_expression>
                         <_value i:nil="true" />
                         <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                       </PropertyValue>
@@ -98,7 +98,7 @@
                     <EnableStatus>true</EnableStatus>
                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                     <RetryCount>-1</RetryCount>
-                    <Text></Text>
+                    <Text>Открыть страницу с брендами</Text>
                     <_activityFullName>Activities.Web.LaunchChrome</_activityFullName>
                   </AbstractStep>
                   <AbstractStep z:Id="i17" i:type="ExecutedStep">

@@ -1546,7 +1546,7 @@ WinCred - Windows Credentials
                                       <PropertyValue z:Id="i168">
                                         <PropertyName>To</PropertyName>
                                         <_dataType>Expression</_dataType>
-                                        <_expression>dict_config[$"{row["Имя"].ToString().Trim()}_login"]</_expression>
+                                        <_expression>dict_config[$"{row["Имя"].ToString().Trim()}"]</_expression>
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
@@ -1573,7 +1573,7 @@ WinCred - Windows Credentials
                                       <PropertyValue z:Id="i171">
                                         <PropertyName>To</PropertyName>
                                         <_dataType>Expression</_dataType>
-                                        <_expression>dict_secureData[$"{row["Имя"].ToString().Trim()}_passwd"]</_expression>
+                                        <_expression>dict_secureData[$"{row["Имя"].ToString().Trim()}"]</_expression>
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
@@ -1737,7 +1737,7 @@ WinCred - Windows Credentials
                                       <PropertyValue z:Id="i189">
                                         <PropertyName>To</PropertyName>
                                         <_dataType>Expression</_dataType>
-                                        <_expression>dict_config[$"{row["Имя"].ToString().Trim()}_login"]</_expression>
+                                        <_expression>dict_config[$"{row["Имя"].ToString().Trim()}"]</_expression>
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>
@@ -1764,7 +1764,7 @@ WinCred - Windows Credentials
                                       <PropertyValue z:Id="i192">
                                         <PropertyName>To</PropertyName>
                                         <_dataType>Expression</_dataType>
-                                        <_expression>dict_secureData[$"{row["Имя"].ToString().Trim()}_passwd"]</_expression>
+                                        <_expression>dict_secureData[$"{row["Имя"].ToString().Trim()}"]</_expression>
                                         <_value i:nil="true" />
                                         <_xpathSettings xmlns:d21p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
                                       </PropertyValue>

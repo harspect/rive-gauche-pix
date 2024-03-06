@@ -53,15 +53,15 @@
     </ProjectFileItem>
     <ProjectFileItem z:Id="i14">
       <IsMain>false</IsMain>
-      <Path>Chrome\ExtractAddress.pix</Path>
+      <Path>Chrome\ExtractProductData.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i15">
       <IsMain>false</IsMain>
-      <Path>Chrome\ExtractProductData.pix</Path>
+      <Path>Chrome\ProcessCommonData.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i16">
       <IsMain>false</IsMain>
-      <Path>Chrome\ProcessCommonData.pix</Path>
+      <Path>Chrome\ExtractAddresses.pix</Path>
     </ProjectFileItem>
   </Files>
   <MasterUploadId i:nil="true" />
